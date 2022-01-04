@@ -1,0 +1,81 @@
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my profile</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body >
+    <div class="outer">
+        <nav><ul class="list">
+        <li><a href="#part1">Elizaveta Mironova</a></li>
+        <li><a href="#part2"> Contact </a></li>
+        <li><a href="#part3">Project</a></li>
+        <li> <a href="#part4">Skills</a></li> 
+        <li> <a href="#part5">Education</a></li>
+        <li> <a href="#part6">language</a></li>
+        <li><a href="#part7">Courses</a></li>
+        </ul>  
+        </nav>
+    <header>
+        <div class="colum">
+        <h1 id="part1">Elizaveta Mironova</h1>
+        <img class="img" src="my_Photo.png" alt="My photo" >
+    </div>    
+    </header>
+    <main class="main-content" >
+            <section class="colum">
+                <h2>About Me</h2>
+                <p>My name is Liza. I graduated from university and have been working as an engineer for the last six months. I’m interested in programming so I’m here.</p>
+                <h2 id="part2">Contact details:</h2>
+                 <ul>
+                    <li>Email: lizzabw98@mail.ru</li>
+                    <li>Discord: Mironova Liza(@malenkiy-krot)</li>
+                </ul>
+                <h2 id="part3">My project</h2>
+                <a href="https://malenkiy-krot.github.io/rsschool-cv/cv">My Markdown & Git</a>
+                <h2 id="part4">My skills</h2>
+                <ul>
+                    <li>basics HTML</li>
+                    <li>basics CSS</li>
+                    <li>basics JavaScript</li>
+                </ul>
+            </section>
+        <section class="colum">
+            <h2>Example of code</h2>
+            <pre><code>
+function mygcd(x,y){
+     return y==0? x:mygcd(x,x%y)
+     }
+            </code></pre>
+            <h2 id="part5">Education</h2>
+            <p>Higher education in Belarusian State University of Transport</p>
+            <h2 id="part6">language</h2>
+            <ul>
+                <li>English A2</li>
+                <li>Russian native</li>
+            </ul>
+            <h2 id="part7">Courses</h2>
+            <ul>
+                <li>JavaScript/Front-end. Stage 0</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <address>
+            <img  src="logo_rs_school.png" alt="logo_rs_school" width="150">
+            <p><a href="https://github.com/malenkiy-krot">My GitHub</a></p>
+            <div class="colum">
+            <p ><a href="https://rs.school/js/">Link to RS School</a></p>
+            <time datetime="2022-01-02 22:00">02.01.2022</time>
+        </div>
+        </address>
+        <br>
+    </footer>
+    </div>
+</body>
+</html>
