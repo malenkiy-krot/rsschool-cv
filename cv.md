@@ -22,3 +22,5 @@ Higher education in Belarusian State University of Transport
 ### language
 * English A2
 * Russian native
+### Courses
+* JavaScript/Front-end. Stage 0
