@@ -1,4 +1,5 @@
 # **Elizaveta Mironova**
+![My photo](https://github.com/malenkiy-krot/rsschool-cv/blob/gh-pages/img.png?raw=true)
 ##### *Contact details:*
 ##### Email: lizzabw98@mail.ru
 ##### Discord: Mironova Liza(@malenkiy-krot)
